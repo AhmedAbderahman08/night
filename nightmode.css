@@ -3,7 +3,7 @@
 
 .blog-pager span.pagecurrent {background-color: #1e211e !important;color: #fff !important;}
 
-a, a:link, a:visited, a:active , .nav-menu .menu li a, .Mm-box .item .post-app h1 a, .box-title .title, .nav-menu .home, .nav-menu .btn_search, header[data-item] h1, .post-body{color: #dad9d9 !important;}
+a, a:link, a:visited, a:active , .nav-menu .menu li a, .Mm-box .item .post-app h1 a, .box-title .title, .nav-menu .home, .nav-menu .btn_search, header[data-item] h1, .post-body, .Mm-box .item .post-app h1 a, #footer-wrapper a{color: #dad9d9 !important;}
 
 
 .Mm-box .item .post-app .d-rating i {color: #828282 !important;}
@@ -13,7 +13,7 @@ a, a:link, a:visited, a:active , .nav-menu .menu li a, .Mm-box .item .post-app h
 
 
 .box-title .title {
-    border-bottom: 3px solid #dad9d9 !important;
+    border-bottom: 3px solid #dad9d9 !important;    color: #dad9d9 !important;
 }
 
 .nav-menu .home {
@@ -30,4 +30,26 @@ a, a:link, a:visited, a:active , .nav-menu .menu li a, .Mm-box .item .post-app h
 }
 body {
     background: #2b2b2b !important;
+}
+.post-body h3, .post-body h2, .post-body h4 {
+    border-bottom: 3px solid #dad9d9 !important;
+    background: #1e211e !important;
+    color: #dad9d9 !important;
+}
+.btn-dwn:after{    color: #2b2b2b !important;}
+
+a.btn-dwn, .share-menu li a {
+    color: #111 !important;
+}
+
+.postage a, #blog-pager a {
+    color: #fff !important;
+}
+.postage span {
+    background: #fff !important;
+    color: #111 !important
+        
+}
+.share-menu li a, .owl-theme .owl-controls .owl-dot.active span, .owl-theme .owl-controls .owl-dot:hover span {
+    background: #fff !important;
 }
